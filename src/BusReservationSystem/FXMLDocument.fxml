@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BusReservationSystem.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="614.0" fitWidth="714.0" layoutX="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/1b.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="admbutton" layoutX="440.0" layoutY="196.0" mnemonicParsing="false" onAction="#admin" prefHeight="32.0" prefWidth="90.0" style="-fx-background-color: #FFF851;" text="ADMIN">
+         <font>
+            <Font name="Gabriola" size="15.0" />
+         </font></Button>
+      <Button fx:id="usebutton" layoutX="174.0" layoutY="196.0" mnemonicParsing="false" onAction="#user" prefHeight="32.0" prefWidth="90.0" style="-fx-background-color: #FFF851;" text="USER">
+         <font>
+            <Font name="Gabriola" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="buslebel" layoutX="202.0" layoutY="24.0" prefHeight="66.0" prefWidth="314.0" text="TRAIN RESERVATION SYSTEM" textFill="#010101">
+         <font>
+            <Font name="Gabriola" size="31.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="63.0" layoutX="192.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/2-22734_train-transparent11.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

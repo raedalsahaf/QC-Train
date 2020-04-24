@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BusReservationSystem.AdminController">
+   <children>
+      <ImageView fitHeight="482.0" fitWidth="796.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/1b.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtname" layoutX="270.0" layoutY="158.0" />
+      <Label layoutX="199.0" layoutY="161.0" text="Admin ">
+         <font>
+            <Font name="Gabriola" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="41.0" prefHeight="52.0" prefWidth="164.0" text="ADMIN LOGIN">
+         <font>
+            <Font name="Gabriola" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="logbutton" layoutX="270.0" layoutY="250.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #FFF851;" text="Login">
+         <font>
+            <Font name="Gabriola" size="13.0" />
+         </font></Button>
+      <Button fx:id="backbutton" layoutX="356.0" layoutY="250.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #FFF851;" text="Back">
+         <font>
+            <Font name="Gabriola" size="13.0" />
+         </font></Button>
+      <Label fx:id="lblout" layoutX="417.0" layoutY="204.0" prefHeight="17.0" prefWidth="129.0" textFill="#fc0202" />
+      <TextField fx:id="txtpass" layoutX="270.0" layoutY="202.0" />
+      <Label layoutX="198.0" layoutY="202.0" text="Password ">
+         <font>
+            <Font name="Gabriola" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
